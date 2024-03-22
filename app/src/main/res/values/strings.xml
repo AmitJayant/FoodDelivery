@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign Out!</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="home">Home</string>
+    <string name="sample_address">Kailash Parvat, Shiv Lok</string>
+    <string name="promo_title">GET FLAT ₹500 OFF</string>
+    <string name="promo_description">On gourmet pizzas!</string>
+    <string name="promo_code">Code: GOURMET500</string>
+    <string name="order_now">ORDER NOW</string>
+    <string name="category_header">What\'s on your mind?</string>
+    <string name="restaurants_header">Explore Restaurants</string>
+    <string name="reviews">reviews</string>
+    <string name="free_delivery">FREE DELIVERY\n</string>
+    <string name="btn_add">ADD</string>
+</resources>

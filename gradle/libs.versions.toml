@@ -1,0 +1,51 @@
+[versions]
+agp = "8.3.1"
+kotlin = "1.9.22"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+composeActivity = "1.8.2"
+composeNavigation = "2.7.7"
+composeLifecycle = "2.7.0"
+composeBom = "2024.03.00"
+hilt = "2.50"
+datastore = "1.0.0"
+retrofit = "2.9.0"
+gson = "2.10.1"
+coil = "2.6.0"
+lottie = "6.4.0"
+
+[libraries]
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+compose-activity = { module = "androidx.activity:activity-compose", version.ref = "composeActivity" }
+compose-navigation = { module = "androidx.navigation:navigation-compose", version.ref = "composeNavigation" }
+compose-lifecycle = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "composeLifecycle" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-material-icons = { module = "androidx.compose.material:material-icons-core" }
+compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+datastore = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+coil = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+lottie = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie" }
+
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "junitVersion" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
